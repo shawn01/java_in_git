@@ -5,7 +5,7 @@ public class Personaj {
 	private int lene;
 	private int harnicie;
 	private Camara camara;
-	public boolean isAlive = true;
+	private boolean isAlive = true;
 	public Personaj(String name,int lene,int harnicie,Camara camara){
 		this.name = name;
 		this.lene = lene;
@@ -21,4 +21,12 @@ public class Personaj {
 	public int getHarnicie(){
 		return this.harnicie;
 	}
+	public void setIsAlive(boolean alive){
+		this.isAlive = alive;
+	}
+	public boolean getStatusAlive(){
+		return this.isAlive;
+	}
+	
+	
 }

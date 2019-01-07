@@ -12,12 +12,12 @@ public class Poveste {
 			timp.vara(greiere);
 			timp.vara(furnica);
 		}
-		for(int i=0;i<5;i++){
+		for(int i=0;i<3;i++){
 			timp.iarna(greiere);
 			timp.iarna(furnica);
 		}
-		System.out.println(greiere.isAlive);
-		System.out.println(furnica.isAlive);
+		System.out.println(greiere.getStatusAlive());
+		System.out.println(furnica.getStatusAlive());
 		
 	}
 
